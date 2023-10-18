@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@types/jsdom": "^21.1.4",
+    "@types/node": "^20.8.7",
+    "@types/node-fetch": "^2.6.7",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "jsdom": "^22.1.0",
+    "node-fetch": "^2.7.0",
+    "ts-node": "^10.9.1"
+  }
+}
