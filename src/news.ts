@@ -56,8 +56,14 @@ export function main() {
         .filter((n) => n.title.split(/\s+/).length <= 5)
         .sort((a, b) => b.points - a.points);
 
-      console.log(moreThan5);
-      //console.log(lessThan5);
+      console.log(
+        "News with MORE than 5 words -------------------------------------------------- \n",
+        moreThan5
+      );
+      console.log(
+        "News with LESS OR EQUAL 5 words -------------------------------------------------- \n",
+        lessThan5
+      );
       //console.log(news);
     });
 }

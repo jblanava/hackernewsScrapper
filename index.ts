@@ -1,3 +1,3 @@
-import { main } from "./news";
+import { main } from "./src/news";
 
 main();

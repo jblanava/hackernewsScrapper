@@ -4,6 +4,11 @@
     "test": "npx jest",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run test"
+    }
+  },
   "devDependencies": {
     "@babel/preset-typescript": "^7.23.2",
     "@jest/globals": "^29.7.0",

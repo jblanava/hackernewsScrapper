@@ -1,4 +1,4 @@
-import { exampleHackerNewsHTML, expectedSolution } from "./exampleHTML";
+import { exampleHackerNewsHTML, expectedSolution } from "./utils/exampleHTML";
 import { curateNews, New } from "./news";
 
 describe("News Curator", () => {
