@@ -6,7 +6,6 @@ This project was created using Node 18.18.2, use this node version to avoid erro
 
 2.- run the following script to donwload the neccesary packages: npm install
 
-2.1- (Optional) if you want to run automatic tests before pushing and making sure your code pass all test
-run: npm run prepare
+2.1- (Optional) if you want to run automatic tests before pushing making sure your code pass all test run: npm run prepare
 
-3.- Run: 'npm run start' and the filtered data will show in the terminal window, notice that you can change how the filtered news are shwon modifying the news.ts file
+3.- Run: 'npm run start' and the filtered data will show in the terminal window, notice that you can change how the filtered news are shown modifying the news.ts file
