@@ -1,4 +1,7 @@
 {
+  "author": "Javier Blanco",
+  "license" : "MIT",
+  "version": "1.0.0",
   "scripts": {
     "start": "ts-node index.ts",
     "test": "npx jest",
