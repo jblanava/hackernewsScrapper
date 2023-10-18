@@ -41,6 +41,19 @@ export function curateNews(DOMstring: string): New[] {
   });
   return news;
 }
+
+export function MoreThan5News(news: New[]): New[] {
+  return news
+    .filter((n) => n.title.split(/\s+/).length > 5)
+    .sort((a, b) => b.comments - a.comments);
+}
+
+export function LessThan5News(news: New[]): New[] {
+  return news
+    .filter((n) => n.title.split(/\s+/).length <= 5)
+    .sort((a, b) => b.points - a.points);
+}
+
 export function main() {
   fetch(site)
     .then((res) => {
@@ -48,13 +61,8 @@ export function main() {
     })
     .then((text) => {
       let news: New[] = curateNews(text);
-      let moreThan5: New[] = news
-        .filter((n) => n.title.split(/\s+/).length > 5)
-        .sort((a, b) => b.comments - a.comments);
-
-      let lessThan5: New[] = news
-        .filter((n) => n.title.split(/\s+/).length <= 5)
-        .sort((a, b) => b.points - a.points);
+      let moreThan5: New[] = MoreThan5News(news);
+      let lessThan5: New[] = LessThan5News(news);
 
       console.log(
         "News with MORE than 5 words -------------------------------------------------- \n",

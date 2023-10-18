@@ -346,3 +346,185 @@ export const expectedSolution = [
     points: 3,
   },
 ];
+
+export const expectedMoreThan5News = [
+  {
+    title:
+      "Hacker leaks millions more 23andMe user records on cybercrime forum",
+    order: 15,
+    comments: 208,
+    points: 288,
+  },
+  {
+    title: "What is the Demoscene? An interview",
+    order: 19,
+    comments: 190,
+    points: 467,
+  },
+  {
+    title: "Commercially available chairs in Star Trek",
+    order: 23,
+    comments: 156,
+    points: 558,
+  },
+  {
+    title: "Microfrontends should be a last resort",
+    order: 29,
+    comments: 105,
+    points: 154,
+  },
+  {
+    title: "New pill helps Covid smell and taste loss fade quickly",
+    order: 26,
+    comments: 103,
+    points: 178,
+  },
+  {
+    title:
+      "A 1990 experiment to test whether we could discern life on Earth remotely",
+    order: 14,
+    comments: 88,
+    points: 175,
+  },
+  {
+    title: "The fake browser update scam gets a makeover",
+    order: 4,
+    comments: 83,
+    points: 141,
+  },
+  {
+    title:
+      "Reflect – Multiplayer web app framework with game-style synchronization",
+    order: 3,
+    comments: 67,
+    points: 198,
+  },
+  {
+    title: "Launch HN: Pier (YC W23) – Stripe for Credit",
+    order: 8,
+    comments: 51,
+    points: 111,
+  },
+  {
+    title: "Autogen: Enable next-gen large language model applications",
+    order: 25,
+    comments: 45,
+    points: 129,
+  },
+  {
+    title: "You're not lacking creativity, you're overwhelmed",
+    order: 1,
+    comments: 43,
+    points: 90,
+  },
+  {
+    title: "Standardizing next-generation narrow precision data formats for AI",
+    order: 17,
+    comments: 24,
+    points: 67,
+  },
+  {
+    title: "Fuyu-8B: A multimodal architecture for AI agents",
+    order: 13,
+    comments: 21,
+    points: 74,
+  },
+  {
+    title: "The Ur-Quan Masters: Open-source remake of Star Control II",
+    order: 20,
+    comments: 20,
+    points: 78,
+  },
+  {
+    title: "The Enhanced Game – Sports, without drug testing",
+    order: 6,
+    comments: 18,
+    points: 12,
+  },
+  {
+    title:
+      "gRPC request context which caries values across microservice boundaries",
+    order: 12,
+    comments: 11,
+    points: 17,
+  },
+  {
+    title:
+      "Scientists discover links between Alzheimer's disease and gut microbiota",
+    order: 16,
+    comments: 7,
+    points: 48,
+  },
+  {
+    title: "The Awk Programming Language, Second Edition",
+    order: 5,
+    comments: 5,
+    points: 28,
+  },
+  {
+    title:
+      "Every member of Bandcamp United Union bargaining team was laid off – Hypebot",
+    order: 7,
+    comments: 1,
+    points: 37,
+  },
+  {
+    title: "Prequel.co (Enterprise Data Sharing) Is Hiring a Founding Marketer",
+    order: 9,
+    comments: 0,
+    points: 0,
+  },
+  {
+    title: "Marked by Stars – Agrippa's Occult Philosophy",
+    order: 22,
+    comments: 0,
+    points: 12,
+  },
+];
+
+export const expectedLessThan5News = [
+  {
+    title: "USB-C head-to-head comparison",
+    order: 28,
+    comments: 156,
+    points: 298,
+  },
+  {
+    title: "An ultra-quiet electric leaf blower",
+    order: 24,
+    comments: 94,
+    points: 106,
+  },
+  {
+    title: "Higher quality random floats",
+    order: 27,
+    comments: 39,
+    points: 100,
+  },
+  {
+    title: 'Write More "Useless" Software',
+    order: 2,
+    comments: 17,
+    points: 93,
+  },
+  { title: "Winsorized mean", order: 18, comments: 30, points: 64 },
+  {
+    title: "ArgoCon – Vendor-neutral Argo-focused Event",
+    order: 11,
+    comments: 3,
+    points: 17,
+  },
+  {
+    title: "How to Scale Nuclear Power",
+    order: 10,
+    comments: 17,
+    points: 16,
+  },
+  { title: "How to Exclaim!", order: 21, comments: 0, points: 3 },
+  {
+    title: "Richard Feynman explains neutron stars",
+    order: 30,
+    comments: 0,
+    points: 3,
+  },
+];
