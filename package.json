@@ -1,11 +1,22 @@
 {
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "npx jest",
+    "prepare": "husky install"
+  },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.23.2",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.6",
     "@types/jsdom": "^21.1.4",
     "@types/node": "^20.8.7",
     "@types/node-fetch": "^2.6.7",
+    "husky": "^8.0.3",
+    "ts-jest": "^29.1.1",
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.23.2",
     "jsdom": "^22.1.0",
     "node-fetch": "^2.7.0",
     "ts-node": "^10.9.1"
