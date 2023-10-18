@@ -49,6 +49,16 @@ fetch(site)
   })
   .then((text) => {
     let news: New[] = curateNews(text);
+    let moreThan5: New[] = news
+      .filter((n) => n.title.split(/\s+/).length > 5)
+      .sort((a, b) => b.comments - a.comments);
 
-    news.map((n) => console.log(n));
+    let lessThan5: New[] = news
+      .filter((n) => n.title.split(/\s+/).length <= 5)
+      .sort((a, b) => b.points - a.points);
+
+    moreThan5.map((n) => console.log(n));
+    lessThan5.map((n) => console.log(n));
+
+    //news.map((n) => console.log(n));
   });
